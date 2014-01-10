@@ -1,6 +1,6 @@
 {
   "name": "express-analytics",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "simple analytics middleware for express",
   "main": "index.js",
   "scripts": {

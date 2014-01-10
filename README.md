@@ -106,7 +106,7 @@ var xaoptions = {
 ...
 app.use(xa(xaoptions));
 ```
-Here we ask express-analytics middleware to track uid session key.
+Here we ask express-analytics middleware to track the session key `uid`.
 
 **Important**: make sure the line
 ```
@@ -117,7 +117,7 @@ comes before:
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 ```
-Now, every request made while the session has a key uid will fire an event `xa:uid:[uid-value]`. For example:
+Now, every request made while the session has a `uid` key will fire an event `xa:uid:[uid-value]`. For example:
 ```
 process.on('xa:uid:123', function(data){
     console.log(data)
