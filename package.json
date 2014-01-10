@@ -1,0 +1,26 @@
+{
+  "name": "express-analytics",
+  "version": "0.1.1",
+  "description": "simple analytics middleware for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Ovi Comes"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express-useragent": "0.0.9"
+  },
+  "keywords": [
+    "express",
+    "analytics",
+    "middleware"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/clonq/express-analytics"
+  },
+  "readme": "simple analytics middleware for express"
+}
